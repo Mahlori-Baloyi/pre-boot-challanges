@@ -1,17 +1,17 @@
 #for converting fahrenheit to celsius
 
-def Celsius_to_Fahrenheit(Celsius):
+def Celsius_to_Fahrenheit(C):
 
-    Fahrenheit = (Celsius * 9/5)+ 32
-    return Fahrenheit
+    F = (C * 9/5)+ 32
+    return F
 print(Celsius_to_Fahrenheit(0))
 
 #for converting fahrenheit to celsius
 
-def Fahrenheit_to_Celsius(Fahrenheit):
+def Fahrenheit_to_Celsius(F):
 
-    Celsius = (Fahrenheit - 32) * 5 / 9;
-    return Celsius;
+    C = (F - 32) * 5 / 9
+    return C
 print(Fahrenheit_to_Celsius(32))
 
 
