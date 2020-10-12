@@ -1,10 +1,10 @@
-var_1 = int(input("enter the first variable : "))
-var_2 = int(input("enter the second variable : "))
+a = int(input("enter the first variable : "))
+b = int(input("enter the second variable : "))
 
-def check(var_1,var_2):
+def check(a,b):
 
-    sum = var_1 + var_2
-    if var_1 == 65 or var_2 == 65 or sum == 65:
+    sum = a + b
+    if a == 65 or b == 65 or sum == 65:
         return "true"
     return "false"
-print(check(var_1,var_2))
+print(check(a,b))

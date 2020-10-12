@@ -1,5 +1,5 @@
-def CheckVowels(string):
-    for vowel in string:
-        if vowel in "AaEeIiOoUu":
-            print(vowel)
+def CheckVowels(words):
+    for i in words:
+        if i in "AaEeIiOoUu":
+            print(i)
 CheckVowels("UmUzi AcadEmy")

@@ -1,10 +1,10 @@
-string_1 = input("input first string: ")
-string_2 = input("input second string: ")
+a = input("input first string: ")
+b = input("input second string: ")
 
-def CommonCharactrs(string_1,string_2):
+def CommonCharactrs(a,b):
     my_str = " "
-    for i in set(string_1):
-        if i in string_2:
+    for i in set(a):
+        if i in b:
             my_str += i
     return  my_str
-print(CommonCharactrs(string_1,string_2))
+print(CommonCharactrs(a,b))
