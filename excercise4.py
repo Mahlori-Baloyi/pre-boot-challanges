@@ -9,4 +9,5 @@ def CheckIfContains3(a,b):
         return "true"
     else:
         return "false"
+
 print(CheckIfContains3(a,b))
