@@ -7,4 +7,6 @@ def check(a,b):
     if a == 65 or b == 65 or sum == 65:
         return "true"
     return "false"
+
 print(check(a,b))
+
