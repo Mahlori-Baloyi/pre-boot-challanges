@@ -3,8 +3,8 @@ b = int(input("enter the second variable : "))
 
 def check(a,b):
 
-    sum = a + b
-    if a == 65 or b == 65 or sum == 65:
+    c = a + b
+    if a == 65 or b == 65 or c == 65:
         return "true"
     return "false"
 
